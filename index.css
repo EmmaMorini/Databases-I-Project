@@ -1,0 +1,71 @@
+/* Programmer Name: 00 */
+
+/* The following CSS for background animation by Alison Quaglia. Link: https://codepen.io/hylobates-lar/pen/qBbQeON */
+/* Cited code ends on line 25 */
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #d5f4e6, #80ced6, #c2bf9e, #618685);
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+/* End of cited code */
+
+#button1 {
+    background-color: transparent;
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #80ced6;
+    border: 2px darkslategray;
+}
+
+#buttonarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button1:hover {background-color: rgb(250, 242, 242);}  
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+#buspicture {
+    width: 400px;
+    margin: auto;
+    padding-top: 60px;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;   
+  }
